@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCost"
+        android:hint="Cost"
+        android:textColor="@android:color/white"
+        android:numeric="decimal"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTip"
+        android:hint="Tip in %"
+        android:inputType="numberDecimal"
+        android:numeric="decimal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:text="Calculate Meal Cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:hint="Calculate"
+        android:textColor="@android:color/holo_purple"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46.0dp"
+        android:id="@+id/txtFinalCost"
+        android:hint="Final Cost"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="5dp" />
+</LinearLayout>
